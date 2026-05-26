@@ -1,0 +1,10 @@
+{
+  "name": "deskflow-root",
+  "version": "1.0.0",
+  "description": "Root package runner for DeskFlow",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "build": "npm run install-backend",
+    "start": "cd backend && node server.js"
+  }
+}
